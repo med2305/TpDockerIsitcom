@@ -8,7 +8,7 @@ Ce fichier explique les étapes pour configurer Jenkins et exécuter un pipeline
 ## **1. Installation de Docker Desktop**
 Assurez-vous que Docker Desktop est installé et configuré avec WSL2. Vous pouvez télécharger Docker Desktop depuis [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop).
 
-![Installation Docker Desktop](images/image1.png)
+![Installation Docker Desktop](images/README/image1.png)
 
 ---
 
