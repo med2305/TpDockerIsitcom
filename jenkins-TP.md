@@ -36,7 +36,7 @@ ssh -T git@gitlab.com
 ssh -T git@github.com
 ```
 
-![SSH Test](path/to/image3.png)
+![SSH Test](images/README/image3.png)
 
 ---
 
