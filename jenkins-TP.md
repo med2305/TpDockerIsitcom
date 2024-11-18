@@ -3,14 +3,7 @@
 
 Ce fichier explique les étapes pour configurer Jenkins et exécuter un pipeline CI/CD sous Windows en utilisant Docker Desktop.
 
----
 
-## **1. Installation de Docker Desktop**
-Assurez-vous que Docker Desktop est installé et configuré avec WSL2. Vous pouvez télécharger Docker Desktop depuis [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop).
-
-![Installation Docker Desktop](images/README/image1.png)
-
----
 
 ## **2. Lancer Jenkins avec Docker**
 Ouvrez **PowerShell** et exécutez la commande suivante pour démarrer Jenkins :
@@ -25,7 +18,7 @@ salahgo/jenkins:dind
   - `--privileged` : Permet à Jenkins d'utiliser Docker à l'intérieur du conteneur.
   - `-v jenkins_home:/var/jenkins_home` : Monte un volume pour sauvegarder les données de Jenkins.
 
-![Commande Docker Jenkins](path/to/image2.png)
+![Commande Docker Jenkins](images/README/image1.png)
 
 ---
 
